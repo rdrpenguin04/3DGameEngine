@@ -16,15 +16,11 @@
 
 package com.base.engine.rendering;
 
-import com.base.engine.components.BaseLight;
-import com.base.engine.components.DirectionalLight;
-import com.base.engine.components.PointLight;
-import com.base.engine.components.SpotLight;
+import com.base.engine.components.*;
 import com.base.engine.core.*;
 import com.base.engine.rendering.resourceManagement.ShaderResource;
 
 import static org.lwjgl.opengl.GL20.*;
-import static org.lwjgl.opengl.GL20.glGetUniformLocation;
 import static org.lwjgl.opengl.GL32.*;
 
 import java.io.BufferedReader;
